@@ -155,9 +155,9 @@ public class Demo {
     public static void main(String[] args) {
         while(true) {
             System.out.println("Choose structure to demo:");
-            System.out.println("\t 1 - MyHashSet");
-            System.out.println("\t 2 - MyHashMultiset");
-            System.out.println("\t q - exit");
+            System.out.println("\t1 - MyHashSet");
+            System.out.println("\t2 - MyHashMultiset");
+            System.out.println("\tq - exit");
             String choice = getString("Input value: ");
             switch (choice) {
                 case "1":
